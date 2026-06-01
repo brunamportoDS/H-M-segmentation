@@ -1,9 +1,9 @@
 #H & M Customer Segmentation
 
-## Background: The 
-H&M dataset contains 31 million transactions across over 1 million customers and more than 100,000 products. This project investigates what customers buy and their natural habits with no label and unsupervised learning. 
+## Background:
+The H&M dataset contains 31 million transactions across 1.2 million customers and  over 100,000 products. This project investigates what customers buy and their natural habits using no-label, unsupervised learning. 
 
-##Methods:
+## Methods:
 - PCA: reduce 14 behavioral features to interpretable axes.
 - SVD: factorize a customer with a product-category-matrix to latent preference factors.
 - Matrix Completion: estimate unobserved purchase affinities by applying iterative low-rank approximation.
